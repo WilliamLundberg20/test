@@ -9,6 +9,6 @@ services:
       APP_PORT: 3000
     
   server:
-    image: getumbrel/community-app-store-hello-world:latest
+    image: 387bcaf73fb04825e8d793ec6b69602c10d4ccf6241dd4a0a5c49fef19fb8f47:latest
     user: "1000:1000"
     init: true
